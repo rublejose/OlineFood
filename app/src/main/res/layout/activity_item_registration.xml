@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.ruble.olinefood.activity.ItemRegistrationActivity">
+
+    <EditText
+        android:id="@+id/itemIdEditText"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/roundfield"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Item ID"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:text="Item Registration"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/itemNameEditText"
+        android:layout_width="210dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/itemIdEditText"
+        android:layout_alignEnd="@+id/itemPriceEditText"
+        android:layout_alignTop="@+id/itemIdEditText"
+        android:background="@drawable/roundfield"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Item Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/itemTypeEditText"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/itemIdEditText"
+        android:layout_below="@+id/itemIdEditText"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/roundfield"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Item Type"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/itemPriceEditText"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/itemTypeEditText"
+        android:layout_alignEnd="@+id/itemRegistrationButton"
+        android:layout_alignTop="@+id/itemTypeEditText"
+        android:background="@drawable/roundfield"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Item Price"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/itemRegistrationButton"
+        android:layout_width="330dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/itemTypeEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="Register"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/itemRegistrationButton"
+        android:layout_marginTop="17dp"
+        android:text="Update Price or Stock Details"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/updateIdEditText"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignEnd="@+id/textView2"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/roundfield"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Item Id"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/updatePriceEditText"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/updateIdEditText"
+        android:layout_alignStart="@+id/itemPriceEditText"
+        android:layout_alignTop="@+id/updateIdEditText"
+        android:background="@drawable/roundfield"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="price/stock"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/updatePriceButton"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/updatePriceEditText"
+        android:layout_below="@+id/updatePriceEditText"
+        android:layout_marginTop="25dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="Update price"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/itemListsButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/colorPrimaryDark"
+        android:text="Item List"
+        android:textColor="@android:color/background_light"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/updateStockButton"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/updatePriceButton"
+        android:layout_alignStart="@+id/updateIdEditText"
+        android:background="@android:color/holo_orange_light"
+        android:text="update stock"
+        android:textSize="16sp" />
+
+</RelativeLayout>
+
+

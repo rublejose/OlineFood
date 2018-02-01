@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Online Food</string>
+    <string name="create_account">Create Account</string>
+    <string name="submit_details">Submit Details</string>
+    <string name="enter_password_for_account">enter password for account</string>
+    <string name="enter_your_name">Enter your Name</string>
+    <string name="house_street_city_district">House,street,city,district</string>
+    <string name="enter_phone_number">enter phone number</string>
+    <string name="account_login">Account Login</string>
+    <string name="login">Login</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="new_user_sign_up">New User? Sign Up...</string>
+    <string name="userName">name</string>
+</resources>
